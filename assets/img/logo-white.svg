@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 225 50" width="225" height="50" role="img" aria-label="Demo Paints">
+  <path d="M22 3C22 3 5 22 5 32a17 17 0 0 0 34 0C39 22 22 3 22 3z" fill="#E4312B"/>
+  <path d="M22 3c0 0 17 19 17 29a17 17 0 0 1-17 17z" fill="#1B3A6B"/>
+  <path d="M12 33a10 10 0 0 0 10 10V27z" fill="#F6B21A"/>
+  <text x="49" y="31" font-family="Outfit,Arial,sans-serif" font-size="25" fill="#FFFFFF"><tspan font-weight="800">DEMO</tspan><tspan font-weight="300" dx="5">PAINTS</tspan></text>
+  <text x="50" y="44" font-family="Inter,Arial,sans-serif" font-size="8" letter-spacing="2.6" fill="#F6B21A" font-weight="600">COLOUR THAT LASTS</text>
+</svg>
