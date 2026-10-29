@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Demo Paints — Colour That Lasts | Paints &amp; Coatings Uganda</title>
+<meta name="description" content="Demo Paints: a fictional paint brand demo with interior, exterior, wood, roof, automotive and industrial coatings, a colour visualizer, cart and quote tools.">
+<meta property="og:title" content="Demo Paints — Colour That Lasts | Paints &amp; Coatings Uganda">
+<meta property="og:description" content="Demo Paints: a fictional paint brand demo with interior, exterior, wood, roof, automotive and industrial coatings, a colour visualizer, cart and quote tools.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#1B3A6B">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@300;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="home">
+<div id="site-header"></div>
+<main id="main">
+<section class="hero slider-auto" data-auto="6000" aria-roledescription="carousel" aria-label="Featured offers"><div class="slides"><div class="slide"><img class="bg" src="https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=1600&q=70" alt="" fetchpriority="high" width="1600" height="900"><div class="container"><h1>Colour That Lasts.</h1><p>Premium paints engineered for East Africa's sun, rain and real life — for homes, builders and industry.</p><div class="cta"><a class="btn btn-primary" href="products.html">Shop Products</a><button class="btn btn-accent" type="button" data-open-quote>Get a Quote</button></div></div><div class="splash" data-c="#E4312B" aria-hidden="true"></div></div><div class="slide"><img class="bg" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&q=70" alt="" loading="lazy" width="1600" height="900"><div class="container"><h1>Weatherproof your walls for 10 years.</h1><p>Meet WeatherGuard Plus: fade-lock colour, anti-algae protection and a 10-year performance promise.</p><div class="cta"><a class="btn btn-primary" href="products.html">Shop Products</a><button class="btn btn-accent" type="button" data-open-quote>Get a Quote</button></div></div><div class="splash" data-c="#F6B21A" aria-hidden="true"></div></div><div class="slide"><img class="bg" src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=1600&q=70" alt="" loading="lazy" width="1600" height="900"><div class="container"><h1>Try before you paint.</h1><p>Pick colours in our room visualizer, calculate exactly how much paint you need, then order in minutes.</p><div class="cta"><a class="btn btn-primary" href="products.html">Shop Products</a><button class="btn btn-accent" type="button" data-open-quote>Get a Quote</button></div></div><div class="splash" data-c="#1FA19A" aria-hidden="true"></div></div></div></section>
+<section class="section"><div class="container"><div class="section-head"><div><span class="eyebrow">Shop by category</span><h2>Everything you need to paint it right</h2></div><a class="btn btn-outline" href="products.html">All products</a></div><div class="grid g4" id="cat-tiles"></div></div></section>
+<section class="section section-alt"><div class="container"><div class="section-head"><div><span class="eyebrow">Customer favourites</span><h2>Best sellers</h2></div><a class="btn btn-outline" href="products.html">View all</a></div><div class="carousel" id="best-carousel"><div class="carousel-track" id="best-track"></div></div></div></section>
+<section class="section"><div class="container"><div class="coy reveal" id="coy"></div></div></section>
+<section class="section section-alt"><div class="container"><div class="section-head"><div><span class="eyebrow">Plan your project</span><h2>Handy paint tools</h2></div></div><div class="grid g4 keep2">
+<a class="tool reveal" href="visualizer.html" style="background:var(--brand-primary)"><span class="ico"><i data-ic="palette"></i></span><h3>Visualizer</h3><span>Preview colours on a room</span></a>
+<a class="tool reveal" href="calculator.html" style="background:var(--brand-secondary)"><span class="ico"><i data-ic="calculator"></i></span><h3>Paint Calculator</h3><span>How many litres do you need?</span></a>
+<a class="tool reveal" href="stores.html" style="background:var(--brand-teal)"><span class="ico"><i data-ic="pin"></i></span><h3>Store Locator</h3><span>Find a dealer near you</span></a>
+<a class="tool reveal" href="colours.html" style="background:#8E6BBF"><span class="ico"><i data-ic="droplets"></i></span><h3>Colour Explorer</h3><span>80 named shades to browse</span></a></div></div></section>
+<section class="section"><div class="container"><div class="section-head"><div><span class="eyebrow">Why Demo Paints</span><h2>Built to last in the tropics</h2></div></div><div class="grid g4">
+<div class="feature reveal"><span class="ico"><i data-ic="shield"></i></span><div><h3>Quality tested</h3><p>Every batch is lab-checked for coverage, adhesion and colour.</p></div></div>
+<div class="feature reveal"><span class="ico"><i data-ic="leaf"></i></span><div><h3>Eco &amp; low-VOC</h3><p>Water-based formulas with low odour and low emissions.</p></div></div>
+<div class="feature reveal"><span class="ico"><i data-ic="sun"></i></span><div><h3>Tropical tough</h3><p>UV, humidity and heavy-rain resistance in every tin.</p></div></div>
+<div class="feature reveal"><span class="ico"><i data-ic="users"></i></span><div><h3>Expert advice</h3><p>Free specification help from our technical team.</p></div></div></div></div></section>
+<section class="section section-alt"><div class="container"><div class="section-head"><div><span class="eyebrow">Inspiration</span><h2>Rooms &amp; exteriors we love</h2></div></div><div class="masonry" id="gallery"></div></div></section>
+<section class="section"><div class="container"><div class="section-head center" style="justify-content:center"><div><span class="eyebrow">Testimonials</span><h2>What our customers say</h2></div></div><div class="slider-light" id="testi-slider" data-arrows="off"><div class="slides" id="testi-slides"></div></div></div></section>
+<section class="section" style="padding-top:0"><div class="container"><div class="banner reveal"><div><h2>Contractor or developer?</h2><p>Get trade pricing, site delivery and technical support for projects of any size.</p></div><button class="btn btn-white" type="button" data-open-quote>Request Bulk Quote</button></div></div></section>
+</main>
+<div id="site-footer"></div>
+<script src="assets/js/products.js" defer></script>
+<script src="assets/js/cart.js" defer></script>
+<script src="assets/js/main.js" defer></script>
+<script src="assets/js/pages.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Your Cart | Demo Paints</title>
+<meta name="description" content="Review your Demo Paints cart, apply a promo code, and check out or convert it to a quote.">
+<meta property="og:title" content="Your Cart | Demo Paints">
+<meta property="og:description" content="Review your Demo Paints cart, apply a promo code, and check out or convert it to a quote.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#1B3A6B">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@300;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="cart">
+<div id="site-header"></div>
+<main id="main">
+<div class="page-hero"><div class="container"><div class="crumbs"><a href="index.html">Home</a> <i data-ic="chevron-right"></i> Cart</div><h1>Your Cart</h1><p>Review items, apply a promo code and check out.</p></div></div><section class="section"><div class="container cart-layout"><div><div id="cart-lines"></div>
+<div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:20px"><a class="btn btn-outline" href="products.html"><i data-ic="arrow-left"></i> Continue Shopping</a><button class="btn btn-ghost" id="btn-clear" type="button" style="color:var(--ink)">Clear Cart</button></div></div>
+<aside class="summary" id="cart-summary" aria-label="Order summary"><h2 style="font-size:1.3rem">Order summary</h2>
+<div class="row"><span>Subtotal</span><span id="s-sub"></span></div><div class="row" id="s-disc-row" hidden><span>Discount</span><span id="s-disc"></span></div>
+<div class="row" id="s-vat-row"><span>VAT (18%)</span><span id="s-vat"></span></div><div class="row"><span>Delivery</span><span id="s-del"></span></div>
+<p class="hint" id="s-free" style="margin:0"></p><div class="row total"><span>Total</span><span id="s-total"></span></div>
+<form class="promo" id="promo-form"><label class="sr-only" for="promo-in">Promo code</label><input class="input" id="promo-in" placeholder="Promo code (try DEMO10)" autocomplete="off"><button class="btn btn-outline btn-sm" type="submit">Apply</button></form>
+<button class="btn btn-primary btn-block" id="btn-checkout" type="button">Proceed to Checkout</button><button class="btn btn-outline btn-block" id="btn-to-quote" type="button" style="margin-top:10px">Convert Cart to Quote</button></aside></div></section>
+</main>
+<div id="site-footer"></div>
+<script src="assets/js/products.js" defer></script>
+<script src="assets/js/cart.js" defer></script>
+<script src="assets/js/main.js" defer></script>
+<script src="assets/js/pages.js" defer></script>
+</body>
+</html>

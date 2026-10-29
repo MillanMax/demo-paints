@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Room Colour Visualizer | Demo Paints</title>
+<meta name="description" content="Try Demo Paints colours on walls, ceiling, trim and door in our simple room visualizer, then download your scheme.">
+<meta property="og:title" content="Room Colour Visualizer | Demo Paints">
+<meta property="og:description" content="Try Demo Paints colours on walls, ceiling, trim and door in our simple room visualizer, then download your scheme.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#1B3A6B">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@300;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="visualizer">
+<div id="site-header"></div>
+<main id="main">
+<div class="page-hero"><div class="container"><div class="crumbs"><a href="index.html">Home</a> <i data-ic="chevron-right"></i> Visualizer</div><h1>Room Visualizer</h1><p>Pick a surface, then click a colour. Download your scheme or ask us for a quote.</p></div></div><section class="section"><div class="container viz"><div><div class="viz-stage" id="viz-stage"></div><p class="hint mt">Tip: click directly on the walls, ceiling, trim or door in the picture to select them. Colours are indicative — always check a tester.</p></div>
+<div class="viz-panel"><h3>1. Choose a surface</h3><div class="surf-btns" id="surf-btns" role="group" aria-label="Surface"></div><h3>2. Choose a colour</h3><div class="swatches-mini" id="viz-swatches" role="group" aria-label="Colours"></div>
+<h3 class="mt">Your scheme</h3><ul class="ticks" id="viz-summary" style="grid-template-columns:1fr"></ul>
+<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:16px"><button class="btn btn-ghost" id="viz-reset" type="button" style="color:var(--ink)">Reset</button><button class="btn btn-outline" id="viz-download" type="button">Download PNG</button><button class="btn btn-primary" id="viz-quote" type="button">Get Quote for this scheme</button></div></div></div></section>
+</main>
+<div id="site-footer"></div>
+<script src="assets/js/products.js" defer></script>
+<script src="assets/js/cart.js" defer></script>
+<script src="assets/js/main.js" defer></script>
+<script src="assets/js/pages.js" defer></script>
+</body>
+</html>

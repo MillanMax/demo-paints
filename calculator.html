@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paint Quantity Calculator | Demo Paints</title>
+<meta name="description" content="Work out how many litres of paint you need, the best tin combination and an estimated cost.">
+<meta property="og:title" content="Paint Quantity Calculator | Demo Paints">
+<meta property="og:description" content="Work out how many litres of paint you need, the best tin combination and an estimated cost.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#1B3A6B">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@300;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="calculator">
+<div id="site-header"></div>
+<main id="main">
+<div class="page-hero"><div class="container"><div class="crumbs"><a href="index.html">Home</a> <i data-ic="chevron-right"></i> Calculator</div><h1>Paint Calculator</h1><p>Enter your room size and we will estimate the paint, tins and cost.</p></div></div><section class="section"><div class="container calc-grid"><form id="calc-form" novalidate>
+<div class="form-row"><div class="field"><label for="c-length">Room length (m)</label><input id="c-length" name="length" type="number" min="0" step="0.1" value="5"></div><div class="field"><label for="c-width">Room width (m)</label><input id="c-width" name="width" type="number" min="0" step="0.1" value="4"></div></div>
+<div class="form-row"><div class="field"><label for="c-height">Wall height (m)</label><input id="c-height" name="height" type="number" min="0" step="0.1" value="2.8"></div><div class="field"><label for="c-coats">Number of coats</label><input id="c-coats" name="coats" type="number" min="1" max="4" value="2"></div></div>
+<div class="form-row"><div class="field"><label for="c-doors">Doors</label><input id="c-doors" name="doors" type="number" min="0" value="1"></div><div class="field"><label for="c-windows">Windows</label><input id="c-windows" name="windows" type="number" min="0" value="2"></div></div>
+<div class="field"><label for="c-product">Product</label><select id="c-product" name="product"></select></div>
+<label class="check"><input type="checkbox" name="ceiling"><span>Include ceiling area</span></label></form>
+<div class="result-card"><h3>Your estimate</h3><dl><dt>Paintable area</dt><dd id="r-area">—</dd><dt>Paint needed</dt><dd id="r-litres">—</dd><dt>Recommended tins</dt><dd id="r-tins">—</dd><dt>Estimated cost</dt><dd id="r-cost">—</dd></dl><p id="r-note" style="opacity:.8;font-size:.85rem;margin-top:12px"></p>
+<div id="r-actions" style="display:flex;gap:8px;flex-wrap:wrap;margin-top:12px"><button class="btn btn-accent" id="r-cart" type="button">Add to Cart</button><button class="btn btn-white" id="r-quote" type="button">Get Quote</button></div></div></div></section>
+</main>
+<div id="site-footer"></div>
+<script src="assets/js/products.js" defer></script>
+<script src="assets/js/cart.js" defer></script>
+<script src="assets/js/main.js" defer></script>
+<script src="assets/js/pages.js" defer></script>
+</body>
+</html>
